@@ -3,8 +3,9 @@ declare(strict_types=1);
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
+use PHPUnit\Framework\TestCase;
 
-class TestCaseWithRequest extends \PHPUnit\Framework\TestCase
+class TestCaseWithRequest extends TestCase
 {
     protected $url;
 
